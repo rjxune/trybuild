@@ -1,0 +1,121 @@
+body{
+    background-color:#ddadaf;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+  
+    
+}
+
+.main-logo{
+    border-radius: 50%;
+    height: 200px; width: 200px;
+    border: solid 9px blueviolet;
+    box-shadow: 10px 10px black;
+}
+
+.header{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.Header2{
+    margin: auto;
+    width: 50%;
+    font-size: 3em;
+}
+
+.Build{
+    color: crimson;
+    text-shadow: 4px 4px black;
+}
+
+.tile-image{
+    height:300px; width: 400px;
+    float: left;
+    padding: 10px;
+    
+
+}
+
+p{
+    margin: 20px;
+}
+
+
+.box{
+    width: 40%;
+}
+
+.right{
+    float: right;
+    
+}
+
+.left {
+    float: left;
+}
+
+footer{
+   clear: both;
+   text-align: right;
+}
+
+.try{
+    color: crimson;
+}
+
+
+@media (max-width:680px) {
+    body{
+        text-align: left;
+        display: block;
+        
+    }
+    
+ 
+    
+}
+
+@media (max-width:680px){
+    .left{
+        float: left;
+        margin: 50px;
+        margin-left: 0px;
+
+    }
+}
+
+@media (max-width:680px){
+    .right{
+        float: left;
+        margin: 50px;
+        margin-left: 0px;
+        
+
+    }
+    footer{
+        float: left;
+    }
+   .box{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    object-fit: cover;
+
+    }
+    
+   .header {
+    margin-left: 0px;
+
+    }
+    
+    .Header2{
+        margin-left: 0px;
+
+    }
+}
+     
+
+    
